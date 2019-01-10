@@ -19,3 +19,10 @@ ssh-keygen -t rsa -C "840157203@qq.com"
 
   git config --global user.name "wentome"
   git config --global user.email "840157203@qq.com"
+  
+  
+ 4:分支
+ 查看分支 git branch 
+ 切换分支 git checkout xxx
+ 创建分组 git checkout -b xxx
+ 推送分支 git push origin xxx
