@@ -1,0 +1,18 @@
+应用笔记
+
+1 下载文件到本地
+    git clone  
+    1:ssh   必须设置 ssh
+    2:http  不需要任何配置直接下载，只要系统安装git即可   可作为通用仓库使用存放安装包等 
+
+2：创建仓库 
+    远程选择README.MD 即初始化操作，这样仓库就可以直接 git clone 同步到本地
+    
+3:设置本地ssh  
+
+设置账号
+  [root@data work]# git config --global  --list
+  fatal: unable to read config file '/root/.gitconfig': No such file or directory
+
+  $ git config --global user.name "wentome"
+  $ git config --global user.email "840157203@qq.com"
